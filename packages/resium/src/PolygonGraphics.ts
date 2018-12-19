@@ -3,7 +3,7 @@ import Cesium from "cesium";
 import createCesiumComponent, { EventkeyMap } from "./core/CesiumComponent";
 
 export interface PolygonGraphicsCesiumProps {
-  hierarchy?: Cesium.Property | Cesium.PolygonHierarchy;
+  hierarchy?: Cesium.Property | Cesium.PolygonHierarchy | Cesium.Cartesian3[];
   height?: Cesium.Property | number;
   heightReference?: Cesium.Property | Cesium.HeightReference;
   extrudedHeight?: Cesium.Property | number;
