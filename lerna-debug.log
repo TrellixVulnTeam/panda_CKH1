@@ -1,0 +1,13 @@
+0 silly argv {
+0 silly argv   _: [ 'add' ],
+0 silly argv   scope: 'base',
+0 silly argv   D: true,
+0 silly argv   dev: true,
+0 silly argv   globs: [ 'react-router' ],
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': 'lerna',
+0 silly argv   pkg: '@types/'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath /home/comeriven/workspace/panda
+3 error
