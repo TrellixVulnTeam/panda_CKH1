@@ -1,7 +1,9 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import "./styles/styles.scss";
 import { BrowserRouter, Route } from 'react-router-dom';
+import "./styles/styles.scss";
+// import "cesium/Widgets/widgets.css";
+import '/node_modules/cesium/Build/CesiumUnminified/Widgets/widgets.css';
 
 import { App } from './components/App';
 
